@@ -1,25 +1,21 @@
+{% extends 'base.html' %}
 
-<body>
+{% block title %}Trader - Your Ultimate Shopping Destination{% endblock %}
+
+{% block body %}
     <!-- Navigation -->
-
+    {% include 'header.html' %}
     <!-- Hero Section -->
-
+    {% include 'hero_section.html' %}
     <!-- Featured Categories -->
-
+    {% include 'futured-categorys.html' %}
     <!-- Advertisement Banner -->
-
+    {% include 'advertisement.html' %}
     <!-- Featured Brands -->
-
+    {% include 'futured-brands.html' %}
     <!-- Featured Products -->
-
+    {% include 'futured-products.html' %}
     <!-- Features Section -->
+    {% include 'features.html' %}
 
-    <!-- Newsletter Section -->
-
-    <!-- Footer -->
-
-    <!-- Loading Spinner -->
-
-    <!-- JS -->
-
-</body>
+{% endblock body %}
